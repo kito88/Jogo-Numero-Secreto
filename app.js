@@ -15,7 +15,7 @@ function exibirTexto (tag, texto){
 }
 exibirNovo();
 exibirTexto('h1' , 'Jogo do Numero Secreto');
-exibirTexto('p', 'Escolha um Número entre 1 a 10');
+exibirTexto('p', 'Escolha um Número entre 1 a 100');
 
 //criando uma função para o botao CHUTAR
 function verificarChute(){
@@ -45,7 +45,7 @@ function verificarChute(){
 
 //Função numero aleatorio
 function gerarNumeroAleatorio(){
-    return parseInt(Math.random() * 10 + 1);
+    return parseInt(Math.random() * 100 + 1);
 }
 //função de Limpar o Campo
 function limparCampo(){
@@ -54,7 +54,7 @@ function limparCampo(){
 }
 function exibirNovo(){
     exibirTexto('h1' , 'Jogo do Numero Secreto');
-    exibirTexto('p', 'Escolha um Número entre 1 a 10');
+    exibirTexto('p', 'Escolha um Número entre 1 a 100');
 }
 
 function reiniciarJogo(){
