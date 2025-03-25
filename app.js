@@ -25,7 +25,7 @@ function verificarChute(){
     if(chute == numeroAleatorio){
         exibirTexto('h1','Acertou');
         let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
-        let mensagemTentativas = `Parabéns Você Acertou! com ${tentativas} ${palavraTentativa} !`;
+        let mensagemTentativas = `Parabéns Trouxa Você Acertou! com ${tentativas} ${palavraTentativa} !`;
         exibirTexto('p', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled');
         
